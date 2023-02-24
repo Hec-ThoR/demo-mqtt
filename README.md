@@ -27,7 +27,15 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
-
+ create .env after that add 
+ ```bash
+POSTGRES_HOST=127.0.0.1
+POSTGRES_PORT=5432
+POSTGRES_USER="userpostgres"
+POSTGRES_PASS="password"
+POSTGRES_DB="db_name"
+```
+and next ..
 ```bash
 $ npm install
 ```
